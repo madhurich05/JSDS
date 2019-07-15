@@ -14,3 +14,13 @@ class Stack {
          
     }
 }
+
+let stk1 = new Stack(1);
+stk1.push(1)
+stk1.push(2)
+stk1.push(3)
+stk1.stack // [1, 2,3]
+stk1.pop() // 3
+
+stk1.reverse = true;
+stk1.pop() // 1
